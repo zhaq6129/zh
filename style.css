@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'ttfirsneue';
+	src: url('fonts/TT\ Firs\ Neue\ Trial\ Regular.ttf') format('truetype');
+	    font-weight: 400;
+ 		  font-style: normal;
+
+	font-family: 'ttfirsneue';
+	src: url('fonts/TTFirsNeue-Bold.woff2') format('woff2');
+	    font-weight: 700;
+  	  font-style: bold;
+	
+	font-family: 'ttfirsneue';
+	src: url('fonts/TTFirsNeue-Italic.woff2') format('woff2');
+	    font-weight: 400;
+    	font-style: italic;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+	font-family: 'ttfirstneue';
+	background-color: black;
+}
+
+a {
+	font-family: 'ttfirsneue';
+	font-weight: 700;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'ttfirsneue';
+	color: white;
+	font-style: normal;
+}
+
+.button {
+	font-family: 'ttfirsneue';
+  background-color: #CC1126; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+	border-radius: 15px;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+div.gallery {
+	margin: 5px;
+	float: left;
+	width: 450px;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+	color: #CC1126;
+	font-family: 'ttfirsneue';
+	font-size: x-large;
+}
+
+div.gallery:hover {
+	border-radius: 25px;
+	background: url(/images/product-background.png);
+	background-position: left top;
+	background-repeat: repeat;
+
+}
+
+p {
+	color: white;
+	font-family: 'ttfirsneue';
+}
+
+div.product-info {
+	color: #fff;
+	font-family: 'ttfirsneue';
+}
+
+img.product-images {
+	background: url("/images/product-background.png");
+	border-radius: 25px;
+	background-position: left top;
+	background-repeat: repeat;
+}
+
+div.entry {
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
